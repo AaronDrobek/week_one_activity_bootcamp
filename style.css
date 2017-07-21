@@ -1,0 +1,81 @@
+* {
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: orange;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: flex-end;
+  background: #202f37;
+  padding: 10px;
+}
+h1{
+  background: grey;
+  display: flex;
+  justify-content: center;
+}
+.nav-bar a {
+  padding: 10px;
+  margin-left: 8px;
+  border: 2px solid white;
+  border-radius: 3px;
+  color: orange;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.nav-bar a:hover {
+  background: white;
+  color: #202f37;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.image {
+  border: 5px solid #202f37;
+  height: 22vw;
+  width: 30vw;
+  margin: 10px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: gray;
+  font-family: fantasy;
+}
+
+#one {
+  background-image: url("./images/billy1.jpeg");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+#two {
+  background-image: url("./images/billy2.jpeg");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+
+#three {
+  background-image: url("./images/billy3.jpeg");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+
+#four {
+  background-image: url("./images/billy4.jpeg");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
